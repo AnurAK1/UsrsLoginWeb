@@ -10,3 +10,8 @@
 |1  |2020|65.453552               |
 |2  |2021|76.164384               |
 ##### With increase in Web traffic, load to the website will also increase that might increase in overall cost of handling websites in cloud.Business might need a right amount of scaling provisioned inorder to meet the demand of the web users.
+
+###  💡Data Trend Analysis
+##### The plot below , signifies the yearly trend with number of users logging in on a daily basis.
+![yearly_trend](https://github.com/user-attachments/assets/a0b53a05-a203-4baa-adcf-8ce210adc26b)
+###### With respect to plot and data that was updated on recent years, it was found that there was number of users that logging in for the year 2021-22 was changing frequently in up down trajectory, and similar trends was found with other years/Months with change in numbers. With this finding we can conclude that the data is not distributed in a trend and might be influenced with seasonality. In order to forecast that data we will need to proceed with checking the seasonality in the data.
