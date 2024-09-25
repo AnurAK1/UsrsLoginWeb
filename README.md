@@ -16,4 +16,7 @@
 ![yearly_trend](https://github.com/user-attachments/assets/a0b53a05-a203-4baa-adcf-8ce210adc26b)
 ##### With respect to plot and data that was updated on recent years, it was found that there was number of users that logging in for the year 2021-22 was changing frequently in up down trajectory, and similar trends was found with other years/Months with change in numbers. With this finding we can conclude that the data is not distributed in a trend and might be influenced with seasonality. In order to forecast that data we will need to proceed with checking the seasonality in the data.
 ![Daily_trend](https://github.com/user-attachments/assets/3584eac9-9b13-48bd-8e26-31b588d5559d)
-
+##### Decomposing the data multiplicatively and additively will define on what trend users are logging in to websites. It will also gives us trend in which the data is flowing on, it defines that the users are influenced by seasonality while logging in to the website. As there is a data changes its trajectory in upward direction on yearly , keeping decomposition factor to year will give data trends. The plot below shows yearly seasonality trends, when data is being decomposed multiplicatively and additively keeping the factors of little more than year.
+###### Title : Seasonal Multiplicative decomposing data trend
+###### Title : Seasonal Additive decomposing data trend
+##### It can be inferred that data is in an upward trajectory trends influcencing seasonilty.
