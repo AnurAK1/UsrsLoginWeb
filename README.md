@@ -18,5 +18,9 @@
 ![Daily_trend](https://github.com/user-attachments/assets/3584eac9-9b13-48bd-8e26-31b588d5559d)
 ##### Decomposing the data multiplicatively and additively will define on what trend users are logging in to websites. It will also gives us trend in which the data is flowing on, it defines that the users are influenced by seasonality while logging in to the website. As there is a data changes its trajectory in upward direction on yearly , keeping decomposition factor to year will give data trends. The plot below shows yearly seasonality trends, when data is being decomposed multiplicatively and additively keeping the factors of little more than year.
 ###### Title : Seasonal Multiplicative decomposing data trend
+![Mutiplicative](https://github.com/user-attachments/assets/28a50f94-790d-4bba-aaab-2c3bc428b5a5)
+
 ###### Title : Seasonal Additive decomposing data trend
+![additive](https://github.com/user-attachments/assets/97970d23-3902-471d-a8c1-7a496ed33dc5)
+
 ##### It can be inferred that data is in an upward trajectory trends influcencing seasonilty.
