@@ -23,4 +23,6 @@
 ###### Title : Seasonal Additive decomposing data trend
 ![additive](https://github.com/user-attachments/assets/97970d23-3902-471d-a8c1-7a496ed33dc5)
 
-##### It can be inferred that data is in an upward trajectory trends, influcencing seasonilty. In addition ad fuller test indicates the data present are stationary or non - stationary. Stationary data signifies that the mean and variance present in the data do not change over time. After conducting Ad Fuller test, it was found that data is non - stationary in nature and differencing will be required.
+##### It can be inferred that data is in an upward trajectory trends, influcencing seasonilty. In addition ad fuller test indicates the data present are stationary or non - stationary. Stationary data signifies that the mean and variance present in the data do not change over time. After conducting Ad Fuller test, it was found that data is non - stationary in nature and differencing will be required. Differencing will make data stationary as shown in the plot below.
+![1st Diff](https://github.com/user-attachments/assets/5256bbae-e85a-4360-a48e-ce15f6a8b5ad)
+
