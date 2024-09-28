@@ -34,4 +34,9 @@
 ![PACF](https://github.com/user-attachments/assets/6bb451fd-7266-4c3f-bfb7-bdd9cc793cc8)
 ##### Data Preparation in training and testing phases can be acheived by splitting the data in 80-20% giving total observation for Training and Testing with 878 and 219. 
 ##### With differencing as 1st Differencing, ACF keeping as 1 and PACF starting with 4 gives a decent ARIMA model summary that justifies the model suitablity for finding forecast on WebUsers login.Developing the ARIMA Model in training dataset and checking for white noise with LB Test gives us less pvalue where null hypothesis is rejected and absence of white noise is achieved. where as in JB test P value increased , Null hypothesis cannot be rejected giving data stationarity.Also heteroskedasticity p value is lesser, rejected null hypthesis and giving variance is present in the training data set .
-##### Diagnostics plots for ARIMA model 
+##### Diagnostics plots for ARIMA model,Simple Quntiles shows that the model residuals is Linear in nature as the data points is near to the line. Histogram shows that the model residuals values is well distributed with mean near to 0. The Correlogram has 7lag as highest point shows seasonality in the training Data Model.
+![Residual](https://github.com/user-attachments/assets/ce7ece7f-ff0c-43c5-b079-35396b79c9ef)
+##### Adding seosonality to the training ARIMA Model, better performance can be achieved with greater effieciency. On Adding the Seasonality and checking the diagnostics plots, Correlogram lag is reduced .
+![Seasonality](https://github.com/user-attachments/assets/82a9588e-1a62-4e54-940d-277005c9445a)
+
+###  💡Metrics for Forecasting
