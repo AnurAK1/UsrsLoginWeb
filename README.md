@@ -27,3 +27,9 @@
 ![1st Diff](https://github.com/user-attachments/assets/5256bbae-e85a-4360-a48e-ce15f6a8b5ad)
 ##### Since the p value for 1st Differencing identified as 5.674175568009798e-26  for Ad Fuller test ,by rejecting the null hypothesis we can come to a conclusion that data is stationery and can proceed with generating the predictive Model.
 
+###  💡Generating Predictive Model for Forecasting
+##### In Order to generate ARIMA model for Forecasting we will need Autocorrelation factor or ACF and Partial Autocorrelation PACF. On generating the ACF plot and values for 1st differencing data, it was identified repetitive high on 7th Lag signifying seasonality.
+![ACF](https://github.com/user-attachments/assets/acb8207d-c71b-4a7a-8f06-5ae5f9d0a220)
+##### Whereas PACF gives negative high on 5th, 6th and 13th Lag which results in PACF value close to 5,6 or 13.
+![PACF](https://github.com/user-attachments/assets/6bb451fd-7266-4c3f-bfb7-bdd9cc793cc8)
+
