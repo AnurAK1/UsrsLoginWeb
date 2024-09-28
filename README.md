@@ -25,4 +25,5 @@
 
 ##### It can be inferred that data is in an upward trajectory trends, influcencing seasonilty. In addition ad fuller test indicates the data present are stationary or non - stationary. Stationary data signifies that the mean and variance present in the data do not change over time. After conducting Ad Fuller test, it was found that data is non - stationary in nature and differencing will be required. Differencing will make data stationary as shown in the plot below.
 ![1st Diff](https://github.com/user-attachments/assets/5256bbae-e85a-4360-a48e-ce15f6a8b5ad)
+##### Ad Fuller test  p value for 1st Differencing i.e: 5.674175568009798e-26 makes data stationery , by rejecting the null hypothesis.
 
