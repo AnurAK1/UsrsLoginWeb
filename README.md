@@ -39,4 +39,19 @@
 ##### Adding seosonality to the training ARIMA Model, better performance can be achieved with greater effieciency. On Adding the Seasonality and checking the diagnostics plots, Correlogram lag is reduced .
 ![Seasonality](https://github.com/user-attachments/assets/82a9588e-1a62-4e54-940d-277005c9445a)
 
-###  💡Metrics for Forecasting
+###  💡Performance Metrics of Forecasting Model
+
+|DataSet|MSE|RSME|Seasonality|
+|:----:|-----|----|:---:|
+|Train|195.41|13.98|NO|
+|Train|84.08|9.17|Yes|
+|Test|172.90|13.14|Yes|
+
+##### Mean Squared Error and Root Mean Squared Error are considered to be the best performing metrics when forecasting model are developed. After training the model and evaluating the model performance with respect to training data set ,ARIMA model without seasonality is having more MSE and RMSE when compared to ARIMA model with seasonality. Hence ARIMA Model with seasonality provides better results and more accurate forecasting values for Webusers logging in. The Plot shows how well the model is performing in testing dataset with actual and predicted values.
+![Predicted](https://github.com/user-attachments/assets/165c78ba-140a-4488-9a48-bbd300703821)
+
+### 💡Conclusion
+##### When applying the trained model to Testing Dataset it was observed that Mean Absolute Error of 10 approximately giving Percentage Error of 15%. Hence we can conclude that with 15% error ,forecasted web users will login to the websites.Based on the this forecasted users Business can achieve its performance targets and scale up the resources accordingly.
+##### The forecasting plot shows 60 days forecast having MAE of 10 users.
+![60days_forecast](https://github.com/user-attachments/assets/3ea2eaec-2edf-4f20-9d55-69bc0c6a586f)
+
